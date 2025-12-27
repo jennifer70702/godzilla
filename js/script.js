@@ -201,6 +201,17 @@ function initPageScripts() {
             $(this).parent().addClass("active");
         });
     }
+    if ($(".vehicle").length > 0) {
+        $(".trans-info:not(#mrt)").hide();
+        $(".vehicle li").removeClass("active").first().addClass("active");
+        $(".vehicle a").off("click").on("click", function (e) {
+            e.preventDefault();
+            $(".trans-info").hide();
+            $($(this).attr("href")).show();
+            $(this).parent().siblings().removeClass("active");
+            $(this).parent().addClass("active");
+        });
+    }
 
     // --- 6. Navbar 捲動特效 (Affix) ---
     $(window).off("scroll").on("scroll", function () {

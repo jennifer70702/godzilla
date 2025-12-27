@@ -2776,12 +2776,21 @@ body {
 
         & .vehicle {
             display: flex;
+            flex-flow: row nowrap;
             justify-content: space-around;
             align-items: center;
-            flex: 1;
-            height: 4rem;
+            color: var(--black);
             cursor: pointer;
-            margin-bottom: var(--title-content-spacing);
+            padding-bottom: 2rem;
+
+            @media (max-width: 1024px) {
+                /* height: 3.25rem; */
+            }
+
+            @media (max-width: 768px) {
+                width: 55%;
+                height: 2.7rem;
+            }
 
             & li {
                 display: flex;
@@ -2809,18 +2818,44 @@ body {
                     }
                 }
 
-                & .active a {
+                /* & .active a {
                     background-color: var(--sec-gold-1);
                     border-radius: 1rem;
-                }
+                } */
             }
+
+            & .active a {
+                color: var(--sec-gold-1);
+            }
+
+            /* & li:first-child {
+                border-radius: 1rem 0 0 1rem;
+            }
+
+            & li:last-child {
+                border-radius: 0 1rem 1rem 0;
+            } */
+
+            & .vehicle {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex: 1;
+                height: 4rem;
+                cursor: pointer;
+                margin-bottom: var(--title-content-spacing);
+
+            }
+
+
         }
 
-        & .content {
+        & .trans-info {
             & h4 {
-                font-size: 1rem;
+                font-size: var(--content-m-);
                 font-weight: var(--font-bold);
                 letter-spacing: var(--title-s-letter-spacing);
+                padding-bottom: 1.2rem;
             }
 
             & p {
