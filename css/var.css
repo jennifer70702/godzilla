@@ -1,0 +1,105 @@
+:root {
+    /* 灰階色 */
+    --black: rgb(21, 21, 21);
+    --charcoal: #3c3c3c;
+    --deep-gray: #636363;
+    --gray: #8a8a8a;
+    --light-gray: #b1b1b1;
+    --light: #d8d8d8;
+    --white: rgb(255, 255, 255);
+
+    /* 主色-紅 */
+    --rd1: rgb(145, 9, 23);
+    --rd2: #a3323e;
+    --rd3: #b55b65;
+    --rd4: #c7848c;
+    --rd5: #d9adb3;
+    --rd6: #ebd6da;
+
+    /* 輔助色-金 */
+    --sec-gold-1: rgb(227, 173, 23);
+    --sec-gold-2: #EAC040;
+    --sec-gold-3: #F1D369;
+    --sec-gold-4: #F8E692;
+    --sec-gold-5: #FFF7BA;
+    /* 輔助色-射線藍 */
+    --sec-lightblue-1: #00EDF3;
+    --sec-lightblue-2: #67F6F9;
+    --sec-lightblue-3: #CDFFFF;
+
+    /* 輔助色-紅蓮橘 */
+    --orange-1: #F04609;
+    --orange-2: #F78A60;
+    --orange-3: #FDCDB6;
+    /* 輔助色-紫1 */
+    --purple-1: #7837D3;
+    --purple-2: #B692E9;
+    --purple-3: #F4EDFF;
+    /* 輔助色-紫2 */
+    --purple-01: #9C56EA;
+    --purple-02: #CA9CF5;
+    --purple-03: #F8E1FF;
+    /* 輔助色-粉 */
+    --pink-1: #DF7CBC;
+    --pink-2: #EFB2D8;
+    --pink-3: #FEE8F4;
+
+
+    /* 圓角 */
+    --radius-full: 99px;
+    --radius-card: 1.5rem;
+
+    /* 字級 */
+    --title-xl: 8rem;
+    --title-l: 6rem;
+    --title-ml: 5rem;
+    --title-m: 4rem;
+    --title-s: 3rem;
+    --title-s-: 2.75rem;
+
+    --content-l: 2.25rem;
+    --content-ml: 2rem;
+    --content-m: 1.5rem;
+    --content-m-: 1.25rem;
+    --content-m--: 1.125rem;
+    --content-default: 1rem;
+    --content-s: .875rem;
+    --btn-l: ;
+    --btn-m: ;
+    --btn-s: ;
+
+    /* 字重 */
+    --font-black: 900;
+    --font-bold: 700;
+    --font-medium: 500;
+    --font-regular: 400;
+
+    /* 行距 */
+    --line-height: 150%;
+    --paragraph-spacing: 2rem;
+    --pad-paragraph-spacing: 1.5rem;
+    --item-spacing: 3.25rem;
+
+
+    /* 字距 */
+    --title-letter-spacing: .2em;
+    --title-s-letter-spacing: .15em;
+    --content-letter-spacing: .05em;
+    --title-content-spacing: 4rem;
+
+
+
+    --swiper-theme-color: white;
+    --bg-music-max-h: 20px;
+
+    /* IKEA-carousel */
+    --grid-gap: 1.25rem;
+    --grid-padding: 3.75rem;
+    --container-max-width: 90rem;
+    --image-dimension: calc(var(--container-max-width) * .175);
+    --radius: .5rem;
+    --half-button-size: 1.75rem;
+    --focus-visible-relative-for-accessibility: relative;
+    --spacing-sides-mobile: 2.25rem;
+    --reserved-nav-buttons-spacing: 3rem;
+}

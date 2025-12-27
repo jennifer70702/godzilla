@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex,nofollow">
+    <title>GODZILLA</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="./css/pointer.css"> -->
+    <link rel="stylesheet" href="./css/loading.css">
+    <link rel="stylesheet" href="./css/musicbtn.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+
+<body data-barba="wrapper">
+    <!-- <div class="cursor-main"></div>
+<div id="footprints-container"></div> -->
+
+
+    <div id="loader">
+        <div class="status-text" id="status-text">INITIALIZING MONARCH SYSTEM...</div>
+        <div class="progress-bar-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+        <div class="percentage" id="percentage">0%</div>
+
+        <button id="enter-btn">ACCESS SECURE ARCHIVE</button>
+    </div>
+
+    <audio id="bgm" loop>
+        <source src="./映画ゴジラ (1954) 全曲 メインタイトル.mp3">
+    </audio>
+    <audio id="access-sound">
+        <source src="./roar.mp3" type="audio/mpeg">
+    </audio>
+    <div class="music-controller">
+        <button id="musicBtn" class="music-btn">
+            <div class="bars">
+                <span></span><span></span><span></span><span></span><span></span>
+            </div>
+        </button>
+    </div>
+
+    <header id="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./images/godzilla-logo (1).png" alt="Godzilla Logo">
+                </a>
+            </div>
+            <div class="outer-menu">
+                <input class="checkbox-toggle" type="checkbox" />
+                <div class="hamburger">
+                    <div></div>
+                </div>
+                <div class="menu">
+                    <div>
+                        <div>
+                            <ul>
+                                <li><a href="./index.html">HOME</a></li>
+                                <li><a href="./about.html">ABOUT</a></li>
+                                <li><a href="./godzilla-store-taipei.html">GODZILLA STORE TAIPEI</a></li>
+                                <li><a href="./online-shop.html">ONLINE SHOP</a></li>
+                                <li><a href="./news.html">NEWS</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main data-barba="container" data-barba-namespace="page-name">
+        <section id="about">
+            <div class="about-1">
+                <div class="div">
+                    <header class="title">
+                        <span>ABOUT</span>
+                        <h2 class="title pri">GODZILLA</h2>
+                    </header>
+                    <div class="intro">
+                        <p class="first-p">哥吉拉 （日文：ゴジラ，羅馬字：
+                            Gojira） 是東寶株式會社創造的一種受輻射影響的爬行類怪獸，首次登場於1954年昭和時期的哥吉拉電影《哥吉拉》，是該片的主角反派。這部哥吉拉是昭和時代首次出現的哥吉拉形象，也是之後所有哥吉拉版本的原型。
+                        </p>
+                        <p class="second-p">
+                            哥吉拉是一隻體型龐大的史前海洋爬行動物，1954年以前生活在太平洋深處。氫彈襲擊了它的海洋家園，哥吉拉也因此遭受輻射。由於家人在爆炸中喪生，哥吉拉開始在日本肆虐，以人類的名義攻擊人類，以報復其作為恐怖自然力量的損失。儘管哥吉拉頑強不屈，但最終
+                        </p>
+                        <button><a href="">LEARN MORE</a></button>
+                    </div>
+                </div>
+                <!-- <figure>
+                    <img src="./images/_新增官圖_販售資訊_X-PLUS_哥吉拉_2014_-removebg-preview.png" alt="">
+                </figure> -->
+            </div>
+            <div class="about-2">
+                <div class="div">
+                    <header class="title">
+                        <h3 class="title ter">形象設計</h3>
+                    </header>
+                    <ul class="tabs ter">
+                        <li><a href="#grow">咆哮</a></li>
+                        <li><a href="#appearance">外貌</a></li>
+                        <li><a href="#personality">性格</a></li>
+                    </ul>
+                </div>
+                <div class="ability" id="grow">
+                    <p>哥吉拉的咆哮聲是著名的音效。多年來，它發生了很大的變化，幾乎每次聽起來都不一樣，而且根據不同的情緒還有許多不同的變化。
+                        音效團隊最初嘗試用剪輯過的動物吼聲來製作哥吉拉的咆哮聲。他們採樣了各種鳥類和哺乳動物的叫聲，但似乎沒有一種能與哥吉拉這種怪獸發出的爬行動物般的聲音相匹配。本片的作曲家伊福部昭提議放棄使用動物採樣。隨後，他取下低音提琴的一根琴弦，用浸過松焦油的手套摩擦琴弦。最終，這根琴弦發出的聲音被用作了哥吉拉的咆哮聲。
+                        這種咆哮聲後來被修改，用於昭和時代其他怪獸的咆哮聲，包括瓦蘭、巴拉貢和哥羅龍。從《金剛大戰哥吉拉》開始，哥吉拉的咆哮聲調升高，並在昭和系列的其餘作品中基本保持不變。</p>
+                </div>
+                <div class="ability" id="appearance">
+                    <p>1954年最初的哥吉拉設計，被稱為「第一代哥吉拉」（ ShodaiGoji），其特點是下半身粗壯，手臂短小，頭部碩大且呈圓形。臉部眉毛濃密，眼睛完全呈圓形，瞳孔極小，這是此版本獨有的特徵。
+                        設計也包含一些自身以及1955年版「逆襲哥吉拉」（GyakushuGoji）獨有的特徵：獠牙、四趾、尾巴底部粗糙且尾尖尖銳，以及交錯排列的背板。這些特徵在1984年至1999年的平成和千禧年系列哥吉拉電影中再次出現。初代哥吉拉（ShodaiGoji）和逆襲哥吉拉的背板設計都極具動感，且各自獨具特色。
+                    </p>
+                </div>
+                <div class="ability" id="personality">
+                    <p>在1954年的原版電影中，哥吉拉被設定為一種史前過渡型爬行動物，它與陸地和海洋爬行動物都有親緣關係，在沉睡於深海數百萬年，以深海生物為食，直到被美國的氫彈試驗驚擾並強化。山根恭平博士提出，最初的哥吉拉可能在氫彈爆炸前與其他同類生活在一起，但氫彈徹底摧毀了它的家園，迫使它現身。
+                        這一觀點得到了1954年哥吉拉官方藝術作品的支持，該作品描繪了哥吉拉與其他哥吉拉生活在水下，之後一場巨大的爆炸摧毀了它的棲息地，殺死了它的同伴，並燒傷和激怒了哥吉拉，迫使它來到水面。</p>
+                </div>
+            </div>
+            <div class="about-3">
+                <div class="about-item">
+                    <img src="./images/Monsterpedia_nav.jpg" alt="">
+                    <a href="" class="border">歷代哥吉拉</a>
+                </div>
+                <div class="about-item">
+                    <img src="./images/Movies_nav.jpg" alt="">
+                    <a href="" class="border">影視作品</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- godzilla store taipei -->
+        <section id="godzilla-store-taipei">
+            <div class="bg-blur">
+                <header class="title">
+                    <h2>GODZILLA<br>STORE<br>TAIPEI</h2>
+                    <div class="icon-list">
+                        <a href="/transportation.html" class="icon-button" aria-label="前往連結 A 的說明">
+                            <span class="icon">
+                                <img src="./images/icon/map.svg" alt="icon-map">
+                            </span>
+                            <span class="btn-text">交通資訊</span>
+                        </a>
+                        <a rel="nofollow" data-barba-prevent
+                            href="https://www.skm.com.tw/skmmedia/lifestyleandfood/living/godzilladdf"
+                            class="icon-button" aria-label="前往連結 B 的說明">
+                            <span class="icon">
+                                <img src="./images/icon/info-circle.svg" alt="icon-info">
+                            </span>
+                            <span class="btn-text">營業資訊</span>
+                        </a>
+                    </div>
+                </header>
+                <figure>
+                    <img src="./images/godzilla store taipei.jpg" alt="">
+                </figure>
+            </div>
+        </section>
+
+        <!-- online shop -->
+        <section id="online-shop">
+            <header class="title">
+                <h2 class="title sec">ONLINE SHOP</h2>
+            </header>
+            <div class="category-container">
+                <div class="category-container one">
+                    <a href="online-shop.html" class="category-item toy-figures">
+                        <div class="over-layer">
+                            <h3>玩具</h3>
+                        </div>
+                    </a>
+                    <a href="online-shop.html" class="category-item groceries">
+                        <div class="over-layer">
+                            <h3>雜貨</h3>
+                        </div>
+                    </a>
+                    <a href="online-shop.html" class="category-item stationery">
+                        <div class="over-layer">
+                            <h3>文具</h3>
+                        </div>
+                    </a>
+                    <a href="online-shop.html" class="category-item others">
+                        <div class="over-layer">
+                            <h3>其他</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="category-container two">
+                    <a href="online-shop.html" class="category-item apparel">
+                        <div class="over-layer">
+                            <h3>服飾</h3>
+                        </div>
+                    </a>
+                    <a href="online-shop.html" class="category-item collaboration">
+                        <div class="over-layer">
+                            <h3>聯名</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- news -->
+        <section id="news">
+            <header class="title">
+                <h2 class="title ter">最新消息</h2>
+            </header>
+            <div id="news-slider" class="owl-carousel">
+                <div class="post-slide">
+                    <div class="post-img">
+                        <img src="https://img.toy-people.com/member/17661270710.png" alt="">
+                        <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+                    </div>
+                    <div class="post-content">
+                        <span class="post-date">Dec 19, 2025</span>
+                        <h3 class="post-title">
+                            <a href="#" title="羽田機場40公尺哥吉拉超巨大雕像正式完工 官方笑談「被牠踩過的城市一定會再繁榮」">羽田機場40公尺哥吉拉超巨大雕像正式完工
+                                官方笑談「被牠踩過的城市一定會再繁榮」</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="post-slide">
+                    <div class="post-img">
+                        <img src="https://img.toy-people.com/member/176599368528_1200.jpg" alt="">
+                        <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+                    </div>
+                    <div class="post-content">
+                        <span class="post-date">Dec 18, 2025</span>
+                        <h3 class="post-title">
+                            <a href="#" title="東寶大怪獸『哥吉拉(2016)第2形態 10周年紀念版』高人氣蒲田君翻新色彩再登場！">東寶大怪獸『哥吉拉(2016)第2形態
+                                10周年紀念版』高人氣蒲田君翻新色彩再登場！</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="post-slide">
+                    <div class="post-img">
+                        <img src="https://img.toy-people.com/member/176563900451.png" alt="">
+                        <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+                    </div>
+                    <div class="post-content">
+                        <span class="post-date">Dec 13, 2025</span>
+                        <h3 class="post-title">
+                            <a href="#" title="日本GAP ✕《哥吉拉》聯名服飾系列 怪獸之王成為穿搭好選擇！">日本GAP ✕《哥吉拉》聯名服飾系列 怪獸之王成為穿搭好選擇！</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="post-slide">
+                    <div class="post-img">
+                        <img src="https://img.toy-people.com/member/176542190623_1200.webp" alt="">
+                        <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+                    </div>
+                    <div class="post-content">
+                        <span class="post-date">Dec 11, 2025</span>
+                        <h3 class="post-title">
+                            <a href="#" title="PeariA『哥吉拉VS戴斯特洛伊亞 戰鬥場景口袋套組』凝聚於掌心的紅蓮哥吉拉最終決戰！">PeariA『哥吉拉VS戴斯特洛伊亞
+                                戰鬥場景口袋套組』凝聚於掌心的紅蓮哥吉拉最終決戰！</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="post-slide">
+                    <div class="post-img">
+                        <img src="https://img.toy-people.com/member/176476190228.png" alt="">
+                        <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+                    </div>
+                    <div class="post-content">
+                        <span class="post-date">Dec 03, 2025</span>
+                        <h3 class="post-title">
+                            <a href="#" title="《哥吉拉對黑多拉》黑多拉造型洗衣袋 讓公害怪獸黑多拉化身成清潔幫手！">《哥吉拉對黑多拉》黑多拉造型洗衣袋
+                                讓公害怪獸黑多拉化身成清潔幫手！</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="post-slide">
+                    <div class="post-img">
+                        <img src="https://img.toy-people.com/member/176516685973_1200.jpg" alt="">
+                        <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+                    </div>
+                    <div class="post-content">
+                        <span class="post-date">Dec 03, 2025</span>
+                        <h3 class="post-title">
+                            <a href="#" title="X-PLUS東寶大怪獸系列『哥吉拉✕數碼寶貝 戰鬥暴龍獸：G侵蝕模式』原創數碼獸大迫力現身！">X-PLUS東寶大怪獸系列『哥吉拉✕數碼寶貝
+                                戰鬥暴龍獸：G侵蝕模式』原創數碼獸大迫力現身！</a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-content">
+        <div class="filter">
+            <nav>
+                <ul class="menu">
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./godzilla-store-taipei.html">GODZILLA STORE TAIPEI</a></li>
+                    <li><a href="./online-shop.html">ONLINE SHOP</a></li>
+                    <li><a href="./news.html">NEWS</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul class="policy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+                <ul class="icon">
+                    <li><a href="" class="icon-fb">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a></li>
+                    <li><a href="" class="icon-x">
+                            <i class="fa-brands fa-x-twitter"></i> </a></li>
+                    <li><a href="" class="icon-yt">
+                            <i class="fa-brands fa-youtube"></i> </a></li>
+                </ul>
+            </div>
+            <small>&copy; All rights reserved.</small>
+        </div>
+    </footer>
+    <aside class="footer-reveal">
+        <img src="./images/!!godzilla-2000-1920-x-1200-wallpaper-qbwwwzwq47hzdhq6 (1).jpg" alt="">
+    </aside>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

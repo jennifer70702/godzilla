@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEWS</title>
+        <link rel="icon" type="image/x-icon" href="./favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/loading.css">
+    <link rel="stylesheet" href="./css/musicbtn.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body data-barba="wrapper">
+    <audio id="bgm" loop>
+        <source src="./映画ゴジラ (1954) 全曲 メインタイトル.mp3">
+    </audio>
+    <audio id="access-sound">
+        <source src="./roar.mp3" type="audio/mpeg">
+    </audio>
+    <div class="music-controller">
+        <button id="musicBtn" class="music-btn">
+            <div class="bars">
+                <span></span><span></span><span></span><span></span><span></span>
+            </div>
+        </button>
+    </div>
+
+    <header id="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./images/godzilla-logo (1).png" alt="Godzilla Logo">
+                </a>
+            </div>
+            <div class="outer-menu">
+                <input class="checkbox-toggle" type="checkbox" />
+                <div class="hamburger">
+                    <div></div>
+                </div>
+                <div class="menu">
+                    <div>
+                        <div>
+                            <ul>
+                                <li><a href="./index.html">HOME</a></li>
+                                <li><a href="./about.html">ABOUT</a></li>
+                                <li><a href="./godzilla-store-taipei.html">GODZILLA STORE TAIPEI</a></li>
+                                <li><a href="./online-shop.html">ONLINE SHOP</a></li>
+                                <li><a href="./news.html">NEWS</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main data-barba="container" data-barba-namespace="page-name">
+        <section class="lv2">
+            <!-- Slider main container -->
+            <div class="swiper" id="swiper-news">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <article class="focus">
+                            <figure class="focus-img">
+                                <a href=""><img src="./images/lv2_news/focus news.jpeg" alt=""></a>
+                            </figure>
+                            <div class="focus-content">
+                                <a class="focus-title" href="">
+                                    <h2>日本GAP ✕《哥吉拉》聯名服飾系列 怪獸之王成為穿搭好選擇！</h2>
+                                </a>
+                                <div class="tags">
+                                    <a href=""><i class="fa-solid fa-hashtag"></i>哥吉拉</a>
+                                    <a href=""><i class="fa-solid fa-hashtag"></i>服飾</a>
+                                    <a href=""><i class="fa-solid fa-hashtag"></i>GAP</a>
+                                    <a href=""><i class="fa-solid fa-hashtag"></i>ACG</a>
+                                </div>
+                                <span class="post-date">2025.12.13</span>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="focus">
+                            <figure class="focus-img">
+                                <a href=""><img src="./images/lv2_news/focus news02.jpg" alt=""></a>
+                            </figure>
+                            <div class="focus-content">
+                                <a class="focus-title" href="">
+                                    <h2>PeariA『哥吉拉VS戴斯特洛伊亞 戰鬥場景口袋套組』凝聚於掌心的紅蓮哥吉拉最終決戰！</h2>
+                                </a>
+                                <div class="tags">
+                                    <a href=""><i class="fa-solid fa-hashtag"></i>哥吉拉</a>
+                                    <a href=""><i class="fa-solid fa-hashtag"></i>可動玩具</a>
+                                    <a href=""><i class="fa-solid fa-hashtag"></i>紅蓮哥吉拉</a>
+                                    <a href=""><i class="fa-solid fa-hashtag"></i>東寶大怪獸</a>
+                                    <a href=""><i class="fa-solid fa-hashtag"></i>萬能麥斯</a>
+                                </div>
+                                <span class="post-date">2025.12.11</span>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="focus">
+                            <figure class="focus-img">
+                                <a href=""><img src="./images/lv2_news/focus news03.jpg" alt=""></a>
+                            </figure>
+                            <div class="focus-content">
+                                <a class="focus-title" href="">
+                                    <h2>《哥吉拉對黑多拉》黑多拉造型洗衣袋 讓公害怪獸黑多拉化身成清潔幫手！</h2>
+                                </a>
+                                <div class="tags">
+                                    <a href=""><i class="fa-solid fa-hashtag"></i>哥吉拉</a>
+                                    <a href=""><i class="fa-solid fa-hashtag"></i>生活雜貨</a>
+                                    <a href=""><i class="fa-solid fa-hashtag"></i>ACG</a>
+                                </div>
+                                <span class="post-date">2025.12.03</span>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section class="lv2 news">
+            <!-- <div class="banner-news">
+                <h1>NEWS</h1>
+            </div> -->
+
+            <article class="post-slide">
+                <figure class="post-img">
+                    <img src="https://img.toy-people.com/member/176474383519_1200.jpg" alt="">
+                    <a href="#"></a>
+                </figure>
+                <span class="post-date"> Out 27, 2019</span>
+                <h3 class="post-title">
+                    <a href="#">《哥吉拉對黑多拉》黑多拉造型洗衣袋 讓公害怪獸黑多拉化身成清潔幫手！</a>
+                </h3>
+            </article>
+            <article class="post-slide">
+                <figure class="post-img">
+                    <img src="https://img.toy-people.com/member/176474383519_1200.jpg" alt="">
+                    <a href="#"></a>
+                </figure>
+                <span class="post-date"> Out 27, 2019</span>
+                <h3 class="post-title">
+                    <a href="#">《哥吉拉對黑多拉》黑多拉造型洗衣袋 讓公害怪獸黑多拉化身成清潔幫手！</a>
+                </h3>
+            </article>
+            <article class="post-slide">
+                <figure class="post-img">
+                    <img src="https://img.toy-people.com/member/176474383519_1200.jpg"
+                        alt="">
+                    <a href="#"></a>
+                </figure>
+                <span class="post-date"> Out 27, 2019</span>
+                <h3 class="post-title">
+                    <a href="#">《哥吉拉對黑多拉》黑多拉造型洗衣袋 讓公害怪獸黑多拉化身成清潔幫手！</a>
+                </h3>
+            </article>
+            <article class="post-slide">
+                <figure class="post-img">
+                    <img src="https://img.toy-people.com/member/176474383519_1200.jpg" alt="">
+                    <a href="#"></a>
+                </figure>
+                <span class="post-date"> Out 27, 2019</span>
+                <h3 class="post-title">
+                    <a href="#">《哥吉拉對黑多拉》黑多拉造型洗衣袋 讓公害怪獸黑多拉化身成清潔幫手！</a>
+                </h3>
+            </article>
+            <article class="post-slide">
+                <figure class="post-img">
+                    <img src="https://img.toy-people.com/member/176474383519_1200.jpg" alt="">
+                    <a href="#"></a>
+                </figure>
+                <span class="post-date"> Out 27, 2019</span>
+                <h3 class="post-title">
+                    <a href="#">《哥吉拉對黑多拉》黑多拉造型洗衣袋 讓公害怪獸黑多拉化身成清潔幫手！</a>
+                </h3>
+            </article>
+            <article class="post-slide">
+                <figure class="post-img">
+                    <img src="https://img.toy-people.com/member/176474383519_1200.jpg" alt="">
+                    <a href="#"></a>
+                </figure>
+                <span class="post-date"> Out 27, 2019</span>
+                <h3 class="post-title">
+                    <a href="#">《哥吉拉對黑多拉》黑多拉造型洗衣袋 讓公害怪獸黑多拉化身成清潔幫手！</a>
+                </h3>
+            </article>
+            <article class="post-slide">
+                <figure class="post-img">
+                    <img src="https://img.toy-people.com/member/176474383519_1200.jpg" alt="">
+                    <a href="#"></a>
+                </figure>
+                <span class="post-date"> Out 27, 2019</span>
+                <h3 class="post-title">
+                    <a href="#">《哥吉拉對黑多拉》黑多拉造型洗衣袋 讓公害怪獸黑多拉化身成清潔幫手！</a>
+                </h3>
+            </article>
+            <article class="post-slide">
+                <figure class="post-img">
+                    <img src="https://img.toy-people.com/member/176474383519_1200.jpg" alt="">
+                    <a href="#"></a>
+                </figure>
+                <span class="post-date"> Out 27, 2019</span>
+                <h3 class="post-title">
+                    <a href="#">《哥吉拉對黑多拉》黑多拉造型洗衣袋 讓公害怪獸黑多拉化身成清潔幫手！</a>
+                </h3>
+            </article>
+            <article class="post-slide">
+                <figure class="post-img">
+                    <img src="https://img.toy-people.com/member/176474383519_1200.jpg" alt="">
+                    <a href="#"></a>
+                </figure>
+                <span class="post-date"> Out 27, 2019</span>
+                <h3 class="post-title">
+                    <a href="#">《哥吉拉對黑多拉》黑多拉造型洗衣袋 讓公害怪獸黑多拉化身成清潔幫手！</a>
+                </h3>
+            </article>
+
+            <!-- <div class="pagination">
+                <a href="#">&laquo;</a>
+                <div class="page-numbers">
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <span class="dots">...</span>
+                    <a href="#">20</a>
+                </div>
+                <a href="#">&raquo;</a>
+            </div> -->
+        </section>
+
+    </main>
+
+    <footer class="footer-content">
+        <div class="filter">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./godzilla-store-taipei.html">GODZILLA STORE TAIPEI</a></li>
+                    <li><a href="./online-shop.html">ONLINE SHOP</a></li>
+                    <li><a href="./news.html">NEWS</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+                <ul>
+                    <li><a href="" class="icon-fb">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a></li>
+                    <li><a href="" class="icon-x">
+                            <i class="fa-brands fa-x-twitter"></i> </a></li>
+                    <li><a href="" class="icon-yt">
+                            <i class="fa-brands fa-youtube"></i> </a></li>
+                </ul>
+            </div>
+            <small>&copy; All rights reserved.</small>
+        </div>
+    </footer>
+    <aside class="footer-reveal">
+        <img src="./images/!!godzilla-2000-1920-x-1200-wallpaper-qbwwwzwq47hzdhq6 (1).jpg" alt="">
+    </aside>
+</body>
+
+</html>

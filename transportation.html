@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>交通資訊</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/loading.css">
+    <link rel="stylesheet" href="./css/musicbtn.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body data-barba="wrapper">
+    <audio id="bgm" loop>
+        <source src="./映画ゴジラ (1954) 全曲 メインタイトル.mp3">
+    </audio>
+    <audio id="access-sound">
+        <source src="./roar.mp3" type="audio/mpeg">
+    </audio>
+    <div class="music-controller">
+        <button id="musicBtn" class="music-btn">
+            <div class="bars">
+                <span></span><span></span><span></span><span></span><span></span>
+            </div>
+        </button>
+    </div>
+    <header id="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./images/godzilla-logo (1).png" alt="Godzilla Logo">
+                </a>
+            </div>
+            <div class="outer-menu">
+                <input class="checkbox-toggle" type="checkbox" />
+                <div class="hamburger">
+                    <div></div>
+                </div>
+                <div class="menu">
+                    <div>
+                        <div>
+                            <ul>
+                                <li><a href="./index.html">HOME</a></li>
+                                <li><a href="./about.html">ABOUT</a></li>
+                                <li><a href="./godzilla-store-taipei.html">GODZILLA STORE TAIPEI</a></li>
+                                <li><a href="./online-shop.html">ONLINE SHOP</a></li>
+                                <li><a href="./news.html">NEWS</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main data-barba="container" data-barba-namespace="page-name">
+        <section class="transportation">
+            <figure>
+                <img src="https://img.skmbuy.com.tw/App_Images/727/Page/2022/1128/8ff4a00b-9fc8-4bab-9221-c43187abdb67.jpg"
+                    alt="" rel="nofollow" data-barba-prevent>
+            </figure>
+            <div class="transportation-info">
+                <ul class="tabs vehicle">
+                    <li><a href="#mrt"><i class="fa-solid fa-train-subway"></i></a></li>
+                    <li><a href="#drive"><i class="fa-solid fa-car"></i></a></li>
+                    <li><a href="#bus"><i class="fa-solid fa-bus-simple"></i></a></li>
+                </ul>
+                <div class="content" id="mrt">
+                    <p>搭乘「捷運板南線」於「市政府站」3號出口出站，出站後步行三分鐘可達。</p>
+                </div>
+                <div class="content" id="drive">
+                    <h4>中山高北上建國高架橋信義路出口下→</h4>
+                    <p>左轉信義路→左轉基隆路→右轉松壽路。</p>
+                    <h4>中山高南下成功路出口下→</h4>
+                    <p>右轉成功路二段→向陽路→右轉忠孝東路→左轉松仁路→右轉松壽路。</p>
+                    <h4>北二高木柵往辛亥路方向下→</h4>
+                    <p>右轉基隆路→右轉松壽路。</p>
+                    <h4>市民大道永吉路出口下→</h4>
+                    <p>到第2個紅綠燈→右轉到忠孝東路→左轉松仁路→右轉松壽路。</p>
+                </div>
+                <div class="content" id="bus">
+                    <h4>公車</h4>
+                    <p>捷運市政府站：
+                        28、32、51、202、212、232、261、263、270、281、282副、537、647、650、651、669、678、915、小2、市民小巴7、藍5、藍7、藍26、藍27、綠1、忠孝新幹線、棕6、棕7、棕18
+                        市政府松智路： 藍5、282、266 威秀影城/松壽路口：
+                        20、245、266、266區、277、284、284直、46、612、612區、621、665、902、912、博愛公車、藍色10/p>
+                    <h4>客運</h4>
+                    <p>市政府轉運站：
+                        中壢指南(台北-桃園)、三重桃園(台北-桃園)、三重(台北-長庚大學)、國光中壢台聯(台北-中壢)、福和(新店-基隆)、國光(台北-金青中心、中崙-苗栗)、統聯(台北-台南、台北-苗栗)、大有(台北-桃園機場、台北-台中)、首都(台北-羅東、台北-宜蘭)、建明(台北-新竹、台北-台中)、亞聯(台北-新竹)、中興(台北-瑞芳)
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-content">
+        <div class="filter">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./godzilla store taipei.html">GODZILLA STORE TAIPEI</a></li>
+                    <li><a href="./online shop.html">ONLINE SHOP</a></li>
+                    <li><a href="./news.html">NEWS</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+                <ul>
+                    <li><a href="" class="icon-fb">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a></li>
+                    <li><a href="" class="icon-x">
+                            <i class="fa-brands fa-x-twitter"></i> </a></li>
+                    <li><a href="" class="icon-yt">
+                            <i class="fa-brands fa-youtube"></i> </a></li>
+                </ul>
+            </div>
+            <small>&copy; All rights reserved.</small>
+        </div>
+    </footer>
+    <aside class="footer-reveal">
+        <img src="./images/!!godzilla-2000-1920-x-1200-wallpaper-qbwwwzwq47hzdhq6 (1).jpg" alt="">
+    </aside>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
